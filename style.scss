@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;;
+}
+
+header {
+    background-color: #FF69B4;  
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caixaLogo {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    img{
+        width: 5vw;
+    }
+    p {
+        color: #FFFFFF;
+        font-size: 1.8em;
+    }
+}
+
+nav {
+    width: 40vw;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        a {
+            color: #FFFFFF;
+            font-size: 1.8em;
+            text-decoration: none;
+        }
+    }
+}
