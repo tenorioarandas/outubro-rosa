@@ -43,11 +43,11 @@ nav {
 }
 
 .secaoPrevencao {
+    background-color: #FFD9EC;
     height: 42vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFD9EC;
     div { 
         width: 24vw;
         p {
@@ -60,16 +60,16 @@ nav {
 }
 
 .secaoEventos {
+    background-color: #FF69B4;
     height: 30vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FF69B4;
     div { 
         width: 24vw;
         p {
-            font-size: 1.2em;
             color: #FFFFFF;
+            font-size: 1.2em;
         }
     }
     img {
@@ -78,12 +78,44 @@ nav {
 }
 
 .secaoOrientacoes {
+    background-color: #FFD9EC;
     height: 50vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #FFD9EC;
     img {
         width: 12vw;
+    }
+}
+
+footer {
+    background-color: #FF69B4;
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .iconesFooter {
+        width: 18vw;
+        display: flex;
+        justify-content: space-around;
+        img {
+            width: 3vw;
+        }
+    }
+    ul {
+        text-align: center;
+        list-style: none;
+        li {
+            color: #FFFFFF;
+            font-size: 1em;
+        }
+    }
+    .iconeLacoRosa {
+        width: 18vw;
+        display: flex;
+        justify-content: flex-end;
+        img {
+            width: 5vw;
+        }
     }
 }
