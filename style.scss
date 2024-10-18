@@ -9,10 +9,10 @@
 
 header {
     background-color: #FF69B4;  
-    height: 15vh;
+    height: 14vh;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
 }
 
 .caixaLogo {
@@ -39,5 +39,51 @@ nav {
             font-size: 1.8em;
             text-decoration: none;
         }
+    }
+}
+
+.secaoPrevencao {
+    height: 42vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD9EC;
+    div { 
+        width: 24vw;
+        p {
+            font-size: 1.2em;
+        }
+    }
+    img {
+        width: 18vw;
+    }
+}
+
+.secaoEventos {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FF69B4;
+    div { 
+        width: 24vw;
+        p {
+            font-size: 1.2em;
+            color: #FFFFFF;
+        }
+    }
+    img {
+        width: 20vw;
+    }
+}
+
+.secaoOrientacoes {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFD9EC;
+    img {
+        width: 12vw;
     }
 }
