@@ -1,4 +1,4 @@
-# 🎀 Outubro Rosa - Site Informativo
+# 🎀 Outubro Rosa
 
 Este projeto é um site simples desenvolvido para conscientizar sobre a campanha do Outubro Rosa, que promove a prevenção e o diagnóstico precoce do câncer de mama. O layout foi criado para fins de estudo no curso Vai na Web.
 
